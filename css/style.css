@@ -40,19 +40,6 @@
     
 }
 
-
-.fleche-droite{
-    position : absolute;
-    top : 50%;
-    right : 3%;
-    width : 10%;
-    height : 20%;
-
-}
-
-
-
-
 body {
     background-image: url('../res/background.jpg');
     background-repeat: no-repeat;
