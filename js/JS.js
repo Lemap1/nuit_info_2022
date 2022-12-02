@@ -227,15 +227,15 @@ data = {
     }
         
 function changeEvent(event){
-        this.currentEvent = event;
-        this.intégrité -= event.intégrité;
-        this.bodyCount += event.bodyCount;
+        currentEvent = event;
+        intégrité -= event.intégrité;
+        bodyCount += event.bodyCount;
 
         document.open();
-        document.getElementById('desc').InnerHTML = events[this.currentEvent].desc;
-        document.getElementById('gauche').InnerHTML = events[this.currentEvent].descL
-        document.getElementById('droite').InnerHTML = events[this.currentEvent].descR;
-        document.getElementById("img").InnerHTML = events[this.currentEvent.image];
+        document.getElementById('desc').InnerHTML = events[data.currentEvent].desc;
+        document.getElementById('gauche').InnerHTML = events[data.currentEvent].descL
+        document.getElementById('droite').InnerHTML = events[data.currentEvent].descR;
+        document.getElementById("img").InnerHTML = events[data.currentEvent.image];
 
         document.close();
 }
