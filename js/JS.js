@@ -471,7 +471,7 @@ function changeEvent(event){
                 description = "Bravo vous vous êtes bien occupé de vous !";
             }else{
                 data.listIST.forEach(IST => {
-                    description += IST;
+                    description += " " + IST;
                 });
             }
             events["f"].desc = description + "<br> Si vous n'aviez pas remarqué 'd' permet de se faire dépister et vous permet de prendre conscience des IST que vous avez obtenu au cours de votre vie. Pour recommencer faîtes f5"
