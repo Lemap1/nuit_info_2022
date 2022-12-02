@@ -1,3 +1,11 @@
+body {
+    background-image: url('/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: hidden;
+}
+
 .display_depistage {
     z-index: 1;
     width: 500px;
@@ -21,26 +29,30 @@
     margin-left : 37%;
     margin-right : 37%;
     margin-bottom : 20%;
-    margin-top : 8%;
-    border-radius: 5%;
+    margin-top : 7%;
+    border-radius: 10px;
     text-align: center;
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(#ef5322, #7b6fb1);
 }
+
 .cadre h1 {
-    text-align: left;
+    text-align: center;
     margin : 5%;
     margin-top: 5%;
     margin-bottom: 0;
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 .cadre p {
-    text-align: left;
+    text-align: center;
     margin: 6%;
     margin-bottom: 30%;
     padding-bottom: 5%;
-    font-size: 1.3em;
+    font-size: 1.4em;
+    color: white;
 }
 
 .cadre img {
@@ -95,6 +107,8 @@
     transform: translateY(-50%);
 
     padding-bottom: 25px;
+
+    font-size: 1.4em;
 }
 
 .left_question {
@@ -110,4 +124,6 @@
     transform: translateY(-50%);
 
     padding-bottom: 25px;
+
+    font-size: 1.4em;
 }
