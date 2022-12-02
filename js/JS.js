@@ -209,7 +209,7 @@ events = {
         
         "-1.alcool" : {
             "age" : 20,
-            "desc" : "Personne ne vous voit faire un Coma éthilique. Vous ",
+            "desc" : "Personne ne vous voit faire un Coma éthilique. Vous mourrez.",
             "propal1" : "end",
             "propal2" : "end",
             "descL" : "",
@@ -225,17 +225,6 @@ data = {
         currentEvent : "0",
         bodyCount : 0
     }
-    
-function keyEvent(event){
-
-            if(event.key == 'ArrowRight'){    
-                methods.changeEvent(events[data.currentEvent].propal1);            
-
-            }else if(event.key == 'ArrowLeft'){
-                methods.changeEvent(events[data.currentEvent].propal2);            
-
-            }
-}
         
 function changeEvent(event){
         this.currentEvent = event;
@@ -250,3 +239,14 @@ function changeEvent(event){
 
         document.close();
 }
+
+
+document.documentElement.addEventListener("keydown", (event) => {
+    if(event.key == 'RightLeft'){
+        changeEvent(events[data.currentEvent].propal1);            
+
+    }else if(event.key == 'ArrowLeft'){
+        changeEvent(events[data.currentEvent].propal2);            
+
+    }
+})
