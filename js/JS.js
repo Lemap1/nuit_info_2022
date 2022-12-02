@@ -240,8 +240,9 @@ function changeEvent(event){
         document.close();
 }
 
-
+console.log("OwO");
 document.documentElement.addEventListener("keydown", (event) => {
+    console.log("UwU");
     if(event.key == 'RightLeft'){
         changeEvent(events[data.currentEvent].propal1);            
 
@@ -249,4 +250,5 @@ document.documentElement.addEventListener("keydown", (event) => {
         changeEvent(events[data.currentEvent].propal2);            
 
     }
-})
+});
+console.log("IwI");
