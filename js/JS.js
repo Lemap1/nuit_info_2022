@@ -242,7 +242,7 @@ function changeEvent(event){
 
 document.documentElement.addEventListener("keydown", (event) => {
     console.log(event.key);
-    if(event.key == 'RightLeft'){
+    if(event.key == 'ArrowRight'){
         changeEvent(events[data.currentEvent].propal1);            
 
     }else if(event.key == 'ArrowLeft'){
