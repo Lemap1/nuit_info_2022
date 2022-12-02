@@ -52,7 +52,7 @@ body {
     height: 400px;
 }
 
-.left_arrow {
+.left_arrow p{
     width: 200px;
     height: 200px;
 
@@ -62,7 +62,7 @@ body {
     top: 40%;
 }
 
-.right_arrow {
+.right_arrow p{
 
     transform: rotate(180deg);
     width: 200px;
