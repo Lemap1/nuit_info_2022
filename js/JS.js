@@ -231,13 +231,10 @@ function changeEvent(event){
         data.intégrité -= event.intégrité;
         data.bodyCount += event.bodyCount;
 
-        document.open();
         document.getElementById("desc").InnerHTML = events[data.currentEvent].desc;
         document.getElementById("gauche").InnerHTML = events[data.currentEvent].descL
         document.getElementById("droite").InnerHTML = events[data.currentEvent].descR;
         document.getElementById("img").InnerHTML = events[data.currentEvent.image];
-
-        document.close();
 }
 
 document.documentElement.addEventListener("keydown", (event) => {
