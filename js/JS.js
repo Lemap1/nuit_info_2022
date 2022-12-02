@@ -544,13 +544,10 @@ function depistage() {
         description = "Bravo vous vous êtes bien occupé de vous !";
     }else{
         data.listIST.forEach(IST => {
-            description += " " + IST;
+            description +=  "<li>" + IST + "</li>";
         });
     }
     
-    data.listIST.forEach(IST => {
-        description +=  "<li>" + IST + "</li>";
-    });
     var txt="<p>" + description + "</p>";
     document.getElementById('depistage').innerHTML=txt;
 };
