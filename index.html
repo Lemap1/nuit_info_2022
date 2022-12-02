@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="js/JS.js"></script>
 </head>
-<body> 
+<body>
+    <input type="text" @keypress.stop.prevent="keyEvent($event)">
     <div class="cadre">
         
     <img src="https://www.shutterstock.com/image-vector/pictures-vector-icon-image-260nw-536173468.jpg" alt="carte" />
