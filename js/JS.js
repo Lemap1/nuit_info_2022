@@ -227,9 +227,9 @@ data = {
     }
         
 function changeEvent(event){
-        currentEvent = event;
-        intégrité -= event.intégrité;
-        bodyCount += event.bodyCount;
+        data.currentEvent = event;
+        data.intégrité -= event.intégrité;
+        data.bodyCount += event.bodyCount;
 
         document.open();
         document.getElementById('desc').InnerHTML = events[data.currentEvent].desc;
