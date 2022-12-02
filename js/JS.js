@@ -263,7 +263,9 @@ function changeEvent(event){
         data.currentEvent = event;
         data.intégrité -= event.intégrité;
         data.bodyCount += event.bodyCount;
-
+        
+        
+        console.log(event);
         document.getElementById("desc").InnerHTML = events[data.currentEvent].desc;
         document.getElementById("gauche").InnerHTML = events[data.currentEvent].descL
         document.getElementById("droite").InnerHTML = events[data.currentEvent].descR;
