@@ -71,7 +71,7 @@ body {
     width: 350px;
 
     position: absolute;
-    top: 42%;
+    top: 43%;
     right: 50%;
     transform: translateX(50%);
 
@@ -133,9 +133,9 @@ body {
     top: 50%;
     transform: translateY(-50%);
 
-    padding-bottom: 25px;
+    font-size: 1.6em;
 
-    font-size: 1.4em;
+    color: white;
 }
 
 .left_question {
@@ -150,7 +150,30 @@ body {
     top: 50%;
     transform: translateY(-50%);
 
-    padding-bottom: 25px;
+    font-size: 1.6em;
 
-    font-size: 1.4em;
+    color: white;
+}
+
+.bg_r_q{
+
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    border-radius: 10px;
+
+    background: #7b6fb1d8;
+}
+
+.bg_l_q{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    border-radius: 10px;
+
+    background: #7b6fb1d8;
 }
