@@ -6,7 +6,8 @@ events = {
             "propal2" : "1",
             "descL" : "suivant",
             "descR" : "suivant",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
 
         "1" : {
@@ -16,7 +17,8 @@ events = {
             "propal2" : "1.2",
             "descL" : "homme",
             "descR" : "femme",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "1.1" : {
@@ -26,7 +28,8 @@ events = {
             "propal2" : "2",
             "descL" : "oui",
             "descR" : "non",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "1.2" : {
@@ -36,7 +39,8 @@ events = {
             "propal2" : "2",
             "descL" : "oui",
             "descR" : "non",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0 
         },
     
         "1.3" : {
@@ -46,17 +50,19 @@ events = {
             "propal2" : "1.9",
             "descL" : "oui",
             "descR" : "non",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0 
         },
     
         "1.4" : {
             "age" : 15,
             "desc" : "Vous faites votre première fois, comptez vous utiliser des capotes ?",
             "propal1" : "1.9",
-            "propal2" : "1.9",
+            "propal2" : "1.9bis",
             "descL" : "oui",
             "descR" : "non",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "1.9" : {
@@ -66,7 +72,19 @@ events = {
             "propal2" : "2",
             "descL" : "suivant",
             "descR" : "suivant",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0 
+        },
+
+        "1.9bis" : {
+            "age" : 15,
+            "desc" : "La personne avec qui vous sortez ne vous trouve pas assez entreprenant. Vous vous faites larguer.",
+            "propal1" : "2",
+            "propal2" : "2",
+            "descL" : "suivant",
+            "descR" : "suivant",
+            "image" : "/media/image0.png",
+            "intégrité": -10
         },
     
         "2" : {
@@ -76,7 +94,8 @@ events = {
             "propal2" : "2.1",
             "descL" : "suivant",
             "descR" : "suivant",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "2.1" : {
@@ -86,7 +105,8 @@ events = {
             "propal2" : "3",
             "descL" : "Aller à la soirée d'intégration.",
             "descR" : "Rester tranquillement chez vous.",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "2.2" : {
@@ -96,7 +116,8 @@ events = {
             "propal2" : "",
             "descL" : "oui",
             "descR" : "non",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "2.3" : {
@@ -106,7 +127,8 @@ events = {
             "propal2" : "",
             "descL" : "oui",
             "descR" : "non",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": -5
         },
     
         "2.5" : {
@@ -116,27 +138,30 @@ events = {
             "propal2" : "",
             "descL" : "oui",
             "descR" : "non",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": -5
         },
     
         "2.6" : {
             "age" : 20,
             "desc" : "Vous avez tellement bu que vous faites un coma éthilique.",
-            "propal1" : "-1.alccol",
-            "propal2" : "-1.alccol",
+            "propal1" : "-1.alcool",
+            "propal2" : "-1.alcool",
             "descL" : "suivant",
             "descR" : "suivant",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "12" : {
-            "age" : 0,
-            "desc" : "",
+            "age" : 20,
+            "desc" : "Vous vous levez le lendemain matin sans vous souvenir de ce qu'il c'est passé. en tournant la tête vous vous trouvez à coté de quelqu'un que vous ne connaisser pas ou du moins vous ne vous souvenez pas avoir rencontrer cette personne.",
             "propal1" : "1",
             "propal2" : "1",
             "descL" : "",
             "descR" : "",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "13" : {
@@ -146,7 +171,8 @@ events = {
             "propal2" : "1",
             "descL" : "",
             "descR" : "",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "14" : {
@@ -154,7 +180,8 @@ events = {
             "desc" : "",
             "propal1" : "1",
             "propal2" : "1",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "15" : {
@@ -164,7 +191,8 @@ events = {
             "propal2" : "1",
             "descL" : "",
             "descR" : "",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "16" : {
@@ -174,7 +202,8 @@ events = {
             "propal2" : "1",
             "descL" : "",
             "descR" : "",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "17" : {
@@ -184,7 +213,8 @@ events = {
             "propal2" : "1",
             "descL" : "",
             "descR" : "",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "19" : {
@@ -194,7 +224,8 @@ events = {
             "propal2" : "1",
             "descL" : "",
             "descR" : "",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
     
         "20" : {
@@ -204,7 +235,8 @@ events = {
             "propal2" : "1",
             "descL" : "",
             "descR" : "",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": 0
         },
         
         "-1.alcool" : {
@@ -214,7 +246,8 @@ events = {
             "propal2" : "end",
             "descL" : "",
             "descR" : "",
-            "image" : "/media/image0.png"
+            "image" : "/media/image0.png",
+            "intégrité": -100
         },
     }
 data = {
